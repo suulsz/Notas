@@ -1,0 +1,6 @@
+print("Seja bem vindo a Escola da Susu!\nPara você conseguir passar de ano você precisa ter a sua nota acima de 24!")
+n = int(input("Qual foi a sua nota esse ano?: "))
+if n >= 24:
+    print("Parabéns, você passou de ano!")
+else:
+    print("Que pena! Você reprovou")
